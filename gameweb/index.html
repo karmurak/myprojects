@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game Webside</title>
+
+    <!-- bootstrap css1 js1 -->
+    <link rel="stylesheet" href="file:///D:/Life%20Carriers/libs/bootstrap/bootstrap-5.1.3-dist/css/bootstrap.min.css" />
+
+    <!-- fontawsome css2 -->
+    <link rel="stylesheet" href="./libs/css/all.min.css" />
+    <link rel="stylesheet" href="./libs/css/fontawesome.min.css" />
+
+
+    <style type="text/css">
+        body{
+            background: #222;
+        }
+        .navs{
+            background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1));
+        }
+        .searchboxs{
+            box-shadow: 3px 4px 4px rgba(0, 0, 0, 1);
+        }
+        .navlinks{
+            text-shadow: 3px 4px 4px rgba(0, 0, 0, 1);
+        }
+        .formsearchs{
+            background: transparent;
+        }
+        .formsearchs::placeholder{
+            color: red;
+            font-weight: bold;
+        }
+        .formsearchs:active,.formsearchs:hover{
+            background: transparent;
+        }
+        .containers1{
+            background-image: url("./img/banner.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .banners{
+            height: 100vh;
+        }
+        .btns:hover{
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        .items1{
+            width: 100%;
+            height: 550px;
+            background: url("./img/item1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .items1{
+            width: 100%;
+            height: 550px;
+            background: url("./img/item1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .items2{
+            width: 100%;
+            height: 550px;
+            background: url("./img/item2.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .items3{
+            width: 100%;
+            height: 550px;
+            background: url("./img/item3.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .items4{
+            width: 100%;
+            height: 550px;
+            background: url("./img/item4.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .icons{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid red;
+            border-radius: 50%;
+            padding: 5px;
+        }
+        .socialboxs{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+        .socials{
+            font-size: 30px;
+        }
+        .btnicons{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+
+        <nav class="navbar navbar-expand-md fixed-top navs">
+
+
+            <a href="index.html" class="navbar-brand mx-3">
+                <img src="./img/logo.png" width="90px" alt="logo" />
+                <span class="text-light fw-bold">GA<span class="text-danger">ME</span><sub><span class="text-light">WED</span><span class="text-danger">SIDE</span></sub></span>
+            </a>
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><i class="fas fa-bars text-danger"></i></button>
+
+            <div id="nav"  class="navbar-collapse collapse justify-content-between">
+                <ul class="navbar-nav px-3">
+                    <li class="nav-item"><a href="#home" class="nav-link text-uppercase text-danger fw-bold navlinks">Home</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link text-uppercase text-danger fw-bold navlinks">Services</a></li>
+                    <li class="nav-item"><a href="#products" class="nav-link text-uppercase text-danger fw-bold navlinks">Products</a></li>
+                    <li class="nav-item"><a href="#accounts" class="nav-link text-uppercase text-danger fw-bold navlinks">Account</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link text-uppercase text-danger fw-bold navlinks">Contact</a></li>
+                </ul>
+
+                <!-- <div class="input-group me-auto">
+
+                    <div class="form-outline d-flex searchboxs">
+                        <input type="search" class="form-control btn-outline-danger rounded-0 formsearchs" placeholder="Search your games" />
+                        <button type="button" class="btn btn-outline-danger text-light rounded-0"><i class="fas fa-search"></i></button>
+                    </div>
+
+                </div> -->
+                <form class="d-flex">
+                    <input class="form-control btn-outline-danger rounded-0 formsearchs" type="search" placeholder="Search your games" aria-label="Search">
+                    <button type="button" class="btn btn-outline-danger text-light rounded-0"><i class="fas fa-search"></i></button>
+                </form>
+
+            </div>
+                
+        </nav>
+
+        <!-- End of NAV -->
+
+        <section>
+
+            <div class="container-fluid containers1">
+
+                <div class="row align-items-center mx-3 banners">
+                    <div class="col-md-6 d-flex text-left">
+                        <img src="./img/item3.jpg" alt="sekiro" width="150px" />
+                        <div class="mx-3">
+                            <h3 class="text-light">Sekiro: Shadow Die Twice<sub class="badge bg-danger rounded-0">$99.99</sub></h3>
+                            <p class="text-light my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
+                                            make a type specimen book.</p>
+                            <button class="btn btn-outline-light text-light btns">GRAB YOUR COPY NOW!</button>
+                        </div>
+                        </div>
+
+                </div>
+            </div>
+    
+        </section>
+
+    </header>
+
+    <!-- End of Header -->
+    <section>
+        <div class="container">
+
+            <div class="col-md-12 bg-dark text-center mx-auto d-flex boxs">
+                <div class="row">
+    
+                    <p class="col-md-12 text-light py-4">Lorem Ipsum is simply dummy text of 
+                        the printing and typesetting industry. Lorem Ipsum</p>
+                        
+                        <div class="col-md-4 col-sm-4 text-center">
+                            <img src="./img/menu.png" width="250px" alt="logo"/>
+                            <p class="text-light">
+                                <span class="text-danger">Play </span>unlimited games
+                            </p>
+                            <span class="text-light">Lorem Ipsum is simply dummy text of 
+                                the printing and typesetting industry. Lorem Ipsum...</span>
+                        </div>
+    
+                        <div class="col-md-4 col-sm-4 text-center">
+                            <img src="./img/menu.png" width="250px" alt="logo"/>
+                            <p class="text-light">
+                                <span class="text-danger">Access </span>early alpha & beta games
+                            </p>
+                            <span class="text-light">Lorem Ipsum is simply dummy text of 
+                                the printing and typesetting industry. Lorem Ipsum...</span>
+                        </div>
+    
+                        <div class="col-md-4 col-sm-4 text-center">
+                            <img src="./img/menu.png" width="250px" alt="logo"/>
+                            <p class="text-light">
+                                <span class="text-danger">Unlock </span>rewards & achievements
+                            </p>
+                            <span class="text-light">Lorem Ipsum is simply dummy text of 
+                                the printing and typesetting industry. Lorem Ipsum...</span>
+                        </div>
+    
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+    <!-- End of Client Section -->
+
+    <section>
+        <div class="container bg-dark my-5">
+
+            <h2 class="col-md-12 text-center text-light mb-5">-NEW RELEASES-</h2>
+
+            <div class="row">
+
+                <div class="col-lg-3 col-md-3 col-sm-6 mx-auto mb-3">
+                    <div class="items1">
+                        <div>
+                            <span class="badge bg-danger text-light p-2 mb-1 rounded-0">$99.99</span>
+                        </div>
+                        <div>
+                            <span class="badge bg-warning text-light p-2 rounded-0">20% OFF</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mx-auto mb-3">
+                    <div class="items2">
+                        <div>
+                            <span class="badge bg-danger text-light p-2 mb-1 rounded-0">$99.99</span>
+                        </div>
+                        <!-- <div>
+                            <span class="badge bg-warning text-light p-2 rounded-0">20% OFF</span>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mx-auto mb-3">
+                    <div class="items3">
+                        <div>
+                            <span class="badge bg-danger text-light p-2 mb-1 rounded-0">$99.99</span>
+                        </div>
+                        <div>
+                            <span class="badge bg-warning text-light p-2 rounded-0">20% OFF</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mx-auto mb-3">
+                    <div class="items4">
+                        <div>
+                            <span class="badge bg-danger text-light p-2 mb-1 rounded-0">$99.99</span>
+                        </div>
+                        <!-- <div>
+                            <span class="badge bg-warning text-light p-2 rounded-0">20% OFF</span>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-3 d-flex">
+                    <div>
+                        
+                        <span class="ms-2 icons">
+                            <i class="fas fa-phone-alt text-danger"></i>
+                        </span>
+                        <span class="text-danger ms-1">09965418369</span>
+                        
+                        <span class="ms-2 icons">
+                            <i class="fas fa-envelope text-danger"></i>
+                        </span>
+                        <span class="text-danger ms-1">karmura@gmial.com</span>
+                        
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-2 d-flex socialboxs">
+                    <i class="fab fa-facebook-square text-muted mx-2 socials"></i>
+                    <i class="fab fa-twitter-square text-muted mx-2 socials"></i>
+                    <i class="fab fa-google-plus-square text-muted mx-2 socials"></i>
+                </div>
+
+            </div>
+            
+
+        </div>
+    </section>
+    <!-- Emd Of Items -->
+
+
+
+    
+    
+    <!-- Start of Footer -->
+    <footer>
+        <div class="container mb-5">
+            <div class="row text-light">
+
+                <div class="col-lg-3 col-md-3 col-sm-6 margin-auto text-left">
+                    <h3>SERVICES</h3>
+
+                    <div class="mt-4">
+                        <span>Lorem Ipsum</span><br/>
+                        <span>Lorem Ipsum is simply</span><br/>
+                        <span>Lorem</span><br/>
+                        <span>Lorem Ipsum is simply dummy text</span><br/>
+                        <span>Lorem Ipsum</span>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 margin-auto text-left">
+                    <h3>PRODUCTS</h3>
+
+                    <div class="mt-4">
+                        <span>Lorem Ipsum is simply</span><br/>
+                        <span>Lorem</span><br/>
+                        <span>Lorem Ipsum</span><br/>
+                        <span>Lorem Ipsum</span><br/>
+                        <span>Lorem Ipsum is simply dummy text</span>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 margin-auto text-left">
+                    <h3>ACCOUNT</h3>
+
+                    <div class="mt-4">
+                        <span>Loem</span><br/>
+                        <span>Loem ipsum dolor</span><br/>
+                        <span>Loem ipsum</span><br/>
+                        <span>Loem ipsum dolor sit</span><br/>
+                        <span>Loem</span>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 margin-auto text-left">
+                    <h3>NEWSLETTER</h3>
+
+                    <div class="mt-4">
+                        <span>Lorem Ipsum is </span><br/>
+                        <span>simply dummy text of the printing and</span><br/>
+                        <span>typesetting industry.</span>
+                        <div class="d-flex mt-3">
+                            <input type="search" class="form-control rounded-0" placeholder="Enter Email Addtess" aria-label="Search" />
+                            <button type="submit" class="btn btn-danger btn-outline-danger rounded-0"><i class="fas fa-envelope text-light fw-bold btnicons"></i></button>
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+                 
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+
+
+
+
+    <!-- bootstrap css1 js1 -->
+    <script src="file:///D:/Life%20Carriers/libs/bootstrap/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
